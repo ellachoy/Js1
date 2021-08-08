@@ -1,0 +1,27 @@
+.newStyle {
+  background-color: coral;
+  color: white;
+  padding: 1rem;
+}
+form fieldset {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+fieldset,
+#colorbox,
+#Btn {
+  border-radius: 5px;
+}
+#colorbox {
+  border-color: blue;
+}
+#Btn {
+  background-color: greenyellow;
+}
+
+#colorbox:hover,
+#Btn:hover {
+  border-color: rgb(119, 147, 229);
+}
+

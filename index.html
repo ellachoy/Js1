@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- DOM Elements
+        Eine Webseite ist ein Dokument. Dieses Dokument kann entweder im
+Browserfenster oder als HTML-Quelltext angezeigt werden. Aber in beiden
+Fällen ist es das gleiche Dokument. Das Document Object Model (DOM) stellt
+das gleiche Dokument dar, so dass es manipuliert werden kann. Das DOM ist
+eine objektorientierte Darstellung der Webseite, die mit einer Skriptsprache
+wie JavaScript geändert werden kann.
+        Die Methode getElementById() gibt das Element zurück, das das ID-Attribut mit dem angegebenen Wert hat. -->
+
+    <div id="demo"></div>
+
+    <!-- CSS verändern mit “classList”
+    Die Eigenschaft classList gibt den/die Klassennamen eines Elements zurück.
+    Diese Eigenschaft ist nützlich, um CSS-Klassen auf einem Element hinzuzufügen, zu entfernen und umzuschalten. Du kannst das mit den Methoden add(), remove() und toggle() ändern. -->
+<h1 id="myHeadline">Ich bin eine super Überschrift</h1>
+
+<button onclick="myFunction()">Style Umschalter</button>
+
+<!-- CodeFlow Projekt lev1_2: Change background-color with input -->
+
+<form action="">
+    <fieldset>
+        <input type="text" name="colorbox" id="colorbox" onchange="colorBackgroundColor()">
+        <h1>Give me a color</h1>
+        <input type="button" value="senden" id=" Btn" onclick="colorBackgroundColor()">
+</fieldset>
+</form>
+<!-- w3s -->
+<!-- 1.JavaScript Can Change HTML Content -->
+
+<h2>what can Js do?</h2>
+
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<!-- <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button> -->
+<input type="button" value="click Me" id=" Btn" onclick="changeText()">
+<p id="ergebniss"></p>
+<!-- übung -->
+<h1 id="h"></h1>
+<h2>Js in Head</h2>
+<p id="newText">A paragraph</p>
+<button type="button" onclick="yourFunction()">Try it</button>
+
+
+
 <script src="assets/js/main.js"></script>
 </body>
 </html>
